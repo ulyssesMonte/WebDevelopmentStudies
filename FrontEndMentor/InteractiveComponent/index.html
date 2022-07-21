@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <Link href="style.css" rel="stylesheet" type="text/css" media="screen">
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+  <section class="u6section">
+    <div class="u6card">
+      <div class="u6rating" id="u6rating">
+        <!-- Rating state start -->
+        <div class="u6star"><img src="images/icon-star.svg"></div>
+        <h1 class="u6title">How did we do?</h1>
+        <p class="y6p">Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!</p>
+        <ul class="u6options">
+          <li><button class="u6rate">1</button></li>
+          <li><button class="u6rate">2</button></li>
+          <li><button class="u6rate">3</button></li>
+          <li><button class="u6rate">4</button></li>
+          <li><button class="u6rate">5</button></li>
+        </ul>
+        <button class="u6submit" type="button">Submit</button>
+
+        <!-- Rating state end -->
+      </div>
+      <div class="u6thanks" id="u6thanks">
+        <!-- Thank you state start -->
+        <img src="images/illustration-thank-you.svg" alt=""><br>
+        <span class="u6select">You selected <span id="selected">
+            <!-- Add rating here -->5
+          </span> out of 5</span><br>
+        <h1>Thank you!</h1>
+        <p>We appreciate you taking the time to give a rating. If you ever need more support,
+          don’t hesitate to get in touch!</p>
+        <!-- Thank you state end -->
+      </div>
+
+    </div>
+  </section>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Ulysses Monte</a>.
+  </div>
+  <script src="script.js"></script>
+  <iframe src="./footernav.html"></iframe>
+</body>
+
+</html>

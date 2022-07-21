@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+}
+
+.u6section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Overpass", sans-serif;
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
+
+}
+
+.u6card {
+    max-width: 22rem;
+    height: 23rem;
+    background-color: hsl(215, 24%, 14%);
+    padding: 1rem 1.5rem 0rem 1.5rem;
+    margin: 0 1rem;
+    border-radius: 15px;
+}
+
+.u6hidden {
+    display: none;
+}
+
+/*rating screen*/
+.u6star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(213, 19%, 23%);
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+    margin-top: 0.75rem;
+}
+
+.u6options {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.u6rate {
+    width: 50px;
+    height: 50px;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.u6rate:hover {
+    background-color: hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%);
+}
+
+.u6rate:active,
+.u6active {
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+}
+
+.u6submit {
+    width: 100%;
+    height: 45px;
+    border: 0;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+    letter-spacing: 2px;
+}
+
+.u6submit:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+/*tanks screen*/
+.u6thanks {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.u6select {
+    display: inline-block;
+    background-color: hsl(213, 19%, 18%);
+    padding: 0.5rem;
+    margin: 1.5rem 0;
+    color: hsl(25, 97%, 53%);
+    border-radius: 25px;
+}
+
+/*o que sera mostrado*/
+#u6rating {
+    display: block;
+}
+
+#u6thanks {
+    display: none;
+}
+
+iframe {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+}

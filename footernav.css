@@ -1,0 +1,23 @@
+.u6footernav {
+    background-color: rgb(34, 34, 37);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0 0 0;
+    font-family: 'Muli';
+}
+
+.u6footernav li {
+    display: flex;
+    margin: 0, 5rem;
+}
+
+.u6footernav a {
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+}
+
+.u6footernav a:hover {
+    color: rgb(112, 112, 112);
+    text-decoration: underline;
+}

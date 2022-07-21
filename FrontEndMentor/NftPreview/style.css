@@ -1,0 +1,89 @@
+@import"https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap";
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.u6section {
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: hsl(217, 54%, 11%);
+    background-size: cover;
+    height: 100vh;
+    font-family: "Outfit", sans-serif;
+}
+
+.u6card {
+    border-radius: 1rem !important;
+    box-shadow: 1rem 1.5rem hsl(217, 53%, 7%);
+    background-color: hsl(216, 50%, 16%) !important;
+    padding: 1.5rem;
+    width: 20.5rem;
+    max-height: 34rem;
+    color: hsl(215, 51%, 70%);
+    margin: 1rem;
+    align-content: center;
+    margin: 4rem auto 4rem;
+}
+
+.u6img {
+    border-radius: 1rem;
+    position: relative;
+}
+
+.u6card h2 {
+    color: hsl(0, 0%, 100%)
+}
+
+.u6card h2:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+.u6icon {
+    height: 1.7rem;
+    margin-right: .5rem;
+}
+
+.u6hover {
+    display: none;
+    align-self: center;
+
+    background-color: hsl(178, 100%, 50%);
+}
+
+.u6img:hover {
+    cursor: pointer;
+    background: hsl(178, 100%, 50%);
+    opacity: 10%;
+    display: flex
+}
+
+.u6eth {
+    color: hsl(178, 100%, 50%);
+    text-transform: uppercase;
+    font-weight: 550;
+}
+
+.u6avatar {
+    width: 2rem;
+    border-radius: 50%;
+    border: 1px white solid;
+    margin: 0rem 0.8rem 0rem 0.8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+iframe {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+}

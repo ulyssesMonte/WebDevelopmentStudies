@@ -1,0 +1,51 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.u6section {
+    align-content: center;
+    background-color: #dceef4;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    padding: 20vh 2rem 2rem 2rem;
+}
+
+.u6card {
+    width: 18%;
+    border-radius: 15px;
+    padding: 1rem;
+    margin: auto;
+}
+
+.u6img {
+    border-radius: 15px;
+}
+
+.u6bold {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.u6p {
+    font-size: 14px;
+    color: grey;
+    padding: 12px;
+}
+
+iframe {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    margin: 0;
+}
