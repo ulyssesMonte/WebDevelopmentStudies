@@ -1,0 +1,121 @@
+* {
+    --clr-pale-blue: hsl(225, 100%, 94%);
+    --clr-bright-blue: hsl(245, 75%, 52%);
+    --clr-very-pale-blue: hsl(225, 100%, 98%);
+    --clr-desaturated-blue: hsl(224, 23%, 55%);
+    --clr-dark-blue: hsl(223, 47%, 23%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    margin: 0;
+}
+
+.u6section {
+    align-content: center;
+    justify-content: center;
+    display: grid;
+    background: url(./images/pattern-background-desktop.svg), var(--clr-pale-blue);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width:375px) {
+    .u6section {
+        background: url(./images/pattern-background-mobile.svg), var(--clr-pale-blue);
+        background-repeat: no-repeat;
+    }
+}
+
+.u6card {
+    background: white;
+    border-radius: 1.5rem;
+    box-shadow: 0rem 1rem 1.5rem 0rem hsla(245, 75%, 52%, .11);
+    overflow: hidden;
+    max-width: 23rem;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    padding-bottom: 1rem;
+    color: var(--clr-desaturated-blue);
+}
+
+.u6card h1 {
+    color: var(--clr-dark-blue);
+}
+
+.u6card p {
+    margin: 0rem 3rem 0rem 3rem;
+}
+
+.u6img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.u6price {
+    margin: 1rem 3.3rem 1rem 3.3rem;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.u6price span {
+    color: var(--clr-dark-blue);
+    font-weight: 700;
+}
+
+.u6price div {
+    margin-left: 1rem;
+}
+
+.u6price a {
+    margin-left: 2rem;
+    color: var(--clr-bright-blue);
+}
+
+.u6price a:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.u6button {
+    background-color: var(--clr-bright-blue);
+    box-shadow: 0.rem 0.5rem 1rem var(--clr-desaturated-blue);
+    color: var(--clr-very-pale-blue);
+    padding: 0.8rem 5rem 0.8rem 5rem;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 0.5rem;
+    font-weight: 900;
+}
+
+.u6button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.u6cancel {
+    font-weight: 700;
+}
+
+.u6cancel:hover {
+    cursor: pointer;
+    color: var(--clr-dark-blue);
+    font-weight: 700;
+}
